@@ -741,6 +741,8 @@ if CRYPTO
 source "arch/arm64/crypto/Kconfig"
 endif
 
+source "arch/arm64/hotplug/Kconfig"
+
 source "lib/Kconfig"
 
 source "arch/arm64/mm/Kconfig"
